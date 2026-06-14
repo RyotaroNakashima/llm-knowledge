@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLM Wiki セットアップ"
+  short_description: "Markdown LLM Wiki を作る"
+  default_prompt: "$setup-llm-wiki を使って、このプロジェクトに Markdown ベースの LLM Wiki をセットアップしてください。Obsidian は optional として扱ってください。"
