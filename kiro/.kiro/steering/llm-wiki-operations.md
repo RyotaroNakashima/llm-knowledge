@@ -1,12 +1,14 @@
 ---
 inclusion: auto
-name: llm-wiki-setup
-description: LLM Wiki、長期記憶、Markdown Wiki、Obsidian optional な知識ベース、Codex/Claude Code/Kiro で使うプロジェクト記憶をセットアップ・改善するときに使う。
+name: llm-wiki-operations
+description: LLM Wiki、長期記憶、Markdown Wiki、AGENTS.md、作業後の関連ノート更新、軽量メンテナンス、Obsidian optional な運用方針が必要なときに使う。
 ---
 
-# LLM Wiki セットアップ
+# LLM Wiki 継続運用
 
-この steering は、Kiro で LLM Wiki をセットアップ・運用するためのガイド。
+この steering は、Kiro で LLM Wiki を継続運用するためのガイド。
+
+既存プロジェクトに LLM Wiki を新規セットアップする場合は、Kiro power の `setup-llm-wiki` を使う。
 
 ## 基本方針
 Obsidian は optional。必須なのは、LLM エージェントが読める・検索できる・編集できる Markdown フォルダ。
@@ -114,4 +116,3 @@ Obsidian を使う場合だけ、必要に応じて `.obsidian/` を作る。
 - 古い Markdown リンクが残っていないこと。
 - `.obsidian/*.json` がある場合は JSON として正しいこと。
 - 最終回答で、作成・更新した主要ファイルを短く伝えること。
-
